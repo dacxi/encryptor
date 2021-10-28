@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.ttf'); /* IE9 Compat Modes */
+  }
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+*{
+    transition:all 0.3s;
+}
+
+body {
+  font-family: "Roboto", "Tahoma", "sans-serif";
+  color: black;
+  font-size: 11pt;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background: #1f4d77;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+button:hover {
+  background: #00aeef;
+  color: #1f4d77;
+}
+
+button:disabled {
+  /* opacity:0.5; */
+}
+
+.dropzone {
+  border: 1px dashed #1f4d77;
+  padding: 40px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.dropzone:hover {
+  border: 1px dashed #00aeef;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: #1f4d77 1px solid;
+  border-radius: 3px;
+}
+
+#btnDivEncrypt,
+#btnDivDecrypt {
+  /* padding: 10px;
+  cursor: pointer; */
+  border: 1px solid #1f4d77;
+  background: white;
+  color: #1f4d77;
+  width: 100%;
+  /* text-align: center; */
+  margin: 1px;
+}
+
+.color-1 {
+  color: #333;
+}
+
+#btnDivEncrypt:disabled,
+#btnDivDecrypt:disabled {
+  background: #1f4d77;
+  color: white;
+  border: 1px solid #1f4d77;
+}
+
+.greenspan {
+  color: green;
+}
+
+.redspan {
+  color: red;
+}
+
+
+.sidebars{
+    border-left:1px solid #1f4d77;
+    border-right:1px solid #1f4d77;
+
+    padding:20px 80px;
+}
